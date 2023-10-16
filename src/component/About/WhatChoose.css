@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:#000000 ;
+    color: white;
+}
+.container5{
+    /* background-color: #14ba7d;
+    color: white; */
+    max-width: 1300px;
+    width: 100%;
+    
+    margin: auto;
+}
+section{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 50px;
+    line-height:60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cards5{
+    display: flex;
+    /* flex-direction: column; */
+    
+    flex-wrap: wrap;
+   justify-content: space-between;
+    
+}
+.card5{
+flex: 0 0 calc(33.33% - 20px);
+max-width: calc(33.33% -20px);
+width: 100%;
+background:#000000;
+border-radius: 10px;
+padding: 20px;
+margin-bottom: 20px;
+transition: .3s;
+border: 2px solid transparent;
+
+}
+
+.icon{
+   position: relative;
+   right: 70px;
+   top: 70px;
+   font-size:50px;
+   background-color:#373737;
+   padding: 10px;
+   
+}
+.i{
+    padding: 12px;
+}
+@media(max-width:969px){
+    
+    section{
+padding: 20px 0px;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .card{
+      flex: 0 0 calc(50% - 20);
+      max-width: calc(50% - 20px);
+    }
+   
+
+}
+
+@media(max-width:600px){
+    
+    section{
+padding: 20px 0px;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .card{
+      flex: 0 0 calc(50% - 20px);
+      max-width: calc(50% - 100px);
+    }
+    .cards5{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+       justify-content: space-between;
+        
+    }
+    .card5{
+        flex: 0 0 calc(33.33% - 20px);
+        max-width: calc(33.33% - px);
+        width: 100%;
+        background:#000000;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        transition: .3s;
+        border: 2px solid transparent;
+        
+        }
+
+  
+
+}
+@media(max-width:969px){
+
+    .icon{
+        position: relative;
+       /* right: 35px; */
+
+       left: 15px;
+        top: 0px;
+        font-size:40px;
+      
+     }
+}
+@media (max-width: 767px){
+  
+}

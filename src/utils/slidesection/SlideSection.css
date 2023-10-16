@@ -1,0 +1,96 @@
+
+.Container {
+    margin: 0 10%;
+    height: 642px;
+    position: relative;
+}
+.Rightimg> .img{
+    width: 74%;
+    height: 642px;
+    object-fit: cover;
+    text-align: right;
+    float: right;
+}
+.leftContent {
+    position: absolute;
+    top: 200px;
+}
+.leftContent >.text >.h12{
+    /* height: 36px; */
+    /* width: 55%; */
+    /* border: 1px solid red; */
+   position: relative;
+   right: 40%;
+  top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    /* line-height: 36px; */
+    color: #989898;
+}
+.leftContent >.text >.h1{
+    width:auto;
+    /* border:1px solid rebeccapurple; */
+    height: 144px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.leftContent > .explore-now-btn {
+    margin: 40px 0 0 15px;
+}
+.leftContent >.explore-now-btn >.span {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 1px;
+    padding:16px 29px 16px 29px ;
+    height: 44px;
+    width: 149px;
+    border: 1px solid #c48f56;
+    border-radius: 4px;
+}
+.leftContent >.explore-now-btn >.span:hover{
+    background-color: #c48f56;
+} 
+@media(max-width:600px){
+    .Rightimg> .img{
+        width: 100%;
+        height: 642px;
+        object-fit: cover;
+        text-align: right;
+        float: right;
+        opacity:0.3;
+        
+    }
+    .leftContent {
+        position: absolute;
+        top:-50px;
+        text-align: center;
+        
+    }
+    .leftContent >.text >.h1{
+        width:auto;
+        /* border:1px solid rebeccapurple; */
+        /* height: 144px; */
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 42px;
+       
+    }
+    .leftContent >.text >.h12{
+        /* height: 36px;
+        width: 55%; */
+        /* border: 1px solid red; */
+        /* font-size: 16px;
+        font-weight: 600; */
+        /* line-height: 36px; */
+        color:white;
+        position: relative;
+        right: 0%;
+       top:40px;
+        
+    }
+    .leftContent > .explore-now-btn {
+        margin: 100% 0 0 0px;
+    }
+}

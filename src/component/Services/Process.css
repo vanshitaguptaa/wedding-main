@@ -1,0 +1,82 @@
+.container{
+    background-color: black;
+    padding: 100px;
+    margin-left: 40px;
+  }
+  p{
+    margin-top:-10px;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 2rem;
+    margin-bottom: 5px;
+  
+  }
+  /* .prof{
+    display: flex;
+   
+  } */
+  h1{
+    font-size: 60px;
+  }
+  .card1{
+      /* color: white; */
+      margin-left: 35px;
+      display: flex;
+      padding: 4px 8px;
+      
+  }
+  
+  .p1{
+      text-align: right;
+      color: white;
+      position:relative;
+      top: 5px;
+  
+    
+      
+  }
+  .div1{
+      text-align:center;
+      padding-left: 110px; 
+      float:right;
+     
+  }
+  
+  .parag{
+      line-height: 2rem;
+      --e-global-color-text: #989898;
+  
+  }
+  
+  .btn3{
+      /* text-align: left; */
+      color: white;
+      margin-top: 100px;
+  }
+  .w3-light-grey{
+      color:#f5ae70;
+  
+    }
+    /* .new{
+      width: 50%;
+      /* @media(max-width:600px){
+          h2{
+          font-size: 30px;
+          line-height: 40px;
+          }
+          } */
+       
+  
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+      padding-left: 10px;
+      margin-left: 12px;
+      /* padding-left: 5ch; */
+    }
+    .move{
+      color:#f5ae70;
+    }
+    /* .pro{
+      color:#f5ae70;
+    } */

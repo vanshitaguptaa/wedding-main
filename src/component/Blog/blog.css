@@ -1,0 +1,95 @@
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f1eb;
+    color: black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 77%;
+}
+.image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+     text-align:center;
+}
+.image img{
+    width: 100%;
+    margin: auto;
+}
+.blog{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ipt1{
+    font-size: 35px;
+    float: left;
+    margin-right: 40px;
+    
+    
+}
+
+.ipt{
+   /* border: 2px solid red; */
+   /* margin-right: 20px; */
+   background-color: goldenrod;
+   padding:25px 10px 60px 10px;
+   
+  
+}
+.ipt3{
+   /* margin-left:-40px; */
+   border-radius: 7px;
+   background-color: goldenrod;
+   padding: 10px;
+}
+.box-text{
+    width: 100%;
+    font-size: xx-large;
+    margin: 1rem;
+    letter-spacing: 5px;
+    /* line-height: 15%; */
+}
+.box-text small{
+   font-size: large;
+   letter-spacing: 1px;
+}
+.btn2{
+    border: 2px solid white;
+    padding: 10px 40px;
+    border-radius: 20px;
+
+}
+.btn2:hover{
+    background-color: rgb(204, 166, 39);
+}
+.create_blog{
+    border: 2px solid goldenrod;
+    padding: 60px;
+    margin: 30px;
+}
+.label{
+    align-items: center;
+}
+.form1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+@media (min-width:1200px)
+{
+    .blg{
+       
+        position: relative;
+        left: 11%;
+    }
+}
